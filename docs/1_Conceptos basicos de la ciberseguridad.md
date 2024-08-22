@@ -1,34 +1,30 @@
-# Google Cybersecurity Certificate
-
-## Curso 1: Conceptos basicos de la ciberseguridad
-
 ![img.png](img.png)
 
-### Módulo 1: Bienvenido al apasionante mundo de la ciberseguridad
+# Módulo 1: Bienvenido al apasionante mundo de la ciberseguridad
 ![img_1.png](img_1.png)
 
-#### Introduccion a la ciberseguridad
+## Introduccion a la ciberseguridad
 - **Ciberseguridad**: Es la proteccion de la informacion y los sistemas de computadoras de ataques no autorizados. La ciberseguridad consta de 3 pilares fundamentales:
       - **confidencialidad**: La informacion solo debe ser accesible para las personas autorizadas.
       - **integridad**: La informacion debe ser precisa y confiable.
       - **disponibilidad de la informacion**: La informacion debe estar disponible para las personas autorizadas cuando la necesiten.
 
-##### Tipos de amenasas
+### Tipos de amenasas
 - **Internas**: Las amenasas son aquellas que provienen por parte de los ex-empleados que trabajaron en la empresa o por parte de los empleados actuales que trabajan en la empresa o socios e incluso hasta un proveedor de servicios. Puede ser intencional (robo de datos) o accidental (hacer clic en un enlace malicioso).
 - **Externas**: Las amenasas son aquellas que provienen de personas ajenas a la empresa como los hackers, crackers, ciberdelincuentes, piratas informaticos, que buscan aprovecharse de las vulnerabilidades para obtener beneficios propios.
 
-##### Beneficios de la ciberseguridad
+### Beneficios de la ciberseguridad
 - **Proteccion de la informacion**: La ciberseguridad protege la informacion de los usuarios y de las empresas.
 - **Proteccion de los sistemas**: La ciberseguridad protege los sistemas de computadoras de las empresas.
 - **Mantenimiento de la confianza**: La ciberseguridad mantiene la confianza de los usuarios y de las empresas.
 
-##### Roles en ciberseguridad
+### Roles en ciberseguridad
 - **Analista de seguridad**Enfocado en la proteccion de sistemas y datos de una organizacion. Esto incluye tareas como el analisis de riesgos y la implementacion de medidas de seguridad y la respuesta a incidentes de seguridad.
 - **Analista de ciberseguridad**: Cumple funciones similares al de un analista de seguridad, pero con un enfoque mas especifico al las amenasas ciberneticas. Esto puede incluir el analisis de malware, la seguridad de la red.
 - **Centro de operaciones de seguridad (SOC)**: Este equipo se encarga de motitorear y responde a las amenazas de seguridad en tiempo real.
 - **Analista de seguridad de la informacion**: enfocado en la informacion confidencial de la organizacion. Esto incluye la implememntacion de politicas de seguridad, implementacion de controles de acceso.
 
-#### Preguntas y Respuestas
+### Preguntas y Respuestas
 
 1. Pregunta 1: ¿Cuál es la diferencia entre una amenaza interna y una amenaza externa en ciberseguridad?
 2. Pregunta 2: ¿Cuáles son los tres principios fundamentales de la seguridad de la información, a menudo conocidos como la tríada CIA?
@@ -44,7 +40,7 @@
     - Mantener los sistemas operativos y el software actualizados es crucial para la seguridad de una empresa porque las actualizaciones suelen incluir parches de seguridad que corrigen vulnerabilidades conocidas.
     - Al no actualizar, las empresas se exponen a un mayor riesgo de ataques cibernéticos, ya que los atacantes buscan activamente explotar estas vulnerabilidades.
 
-#### Terminología común sobre ciberseguridad
+### Terminología común sobre ciberseguridad
 
 - Cumplimiento Normativo: Se refiere al cumplimiento de las leyes y regulaciones relacionadas con la seguridad de la información. Permitiedole a las organizaciones evitar sanciones y multas por incumplimiento.
 - Marcos de Seguridad: Son marcos de trabajo que proporcionan un conjunto de controles y mejores prácticas para proteger la información y los sistemas de una organización.
@@ -56,7 +52,7 @@
 - Seguridad de la nube: Es proteger los datos y aplicaciones almacenados en la nube, asegurando que solo las personas autorizadas tengan acceso a ellos. La nube es un subcampo de la ciberseguridad que se enfoca en proteger los recursos de computación en la nube de los ataques cibernéticos.
 - La programacion: Es el proceso de escribir instrucciones para que una computadora realice una tarea específica o repetitiva. Como ser la automatizacion de tareas repetitivas en ciberseguridad, revicion de trafico de red, alerta de actividades sospechosas.
 
-#### Competencias basicas para los profecionales de la ciberseguridad: 
+### Competencias basicas para los profecionales de la ciberseguridad:
 - **Habilidades Transferibles**: Son habilidades de otras areas que se aplican a diferentes carreras, como la resolucion de problemas, la comunicacion, la colaboracion, getion del tiempo, mentalidad de crecimiento y diversidad de perspectivas.
   - **Comunicacion**: Saber comprender los problemas y saber comunicarlos de manera clara y concisa de manera de que tanto las personas que tengan conocimientos tecnico y aquellos que no lo tengan puedan entenderlo.
   - **Resolucion de Problemas**: Saber identificar los problemas y encontrar soluciones efectivas, ademas de ser capaz de adaptarse a situaciones cambiantes. Puede hacerlo reconociendo patrones para luego determinar una solucion efectiva.
@@ -70,9 +66,9 @@
   - **Sistemas de prevencion de intrusiones (IPS)**: Son sistemas que detectan y bloquean automáticamente las amenazas de seguridad en tiempo real, protegiendo los sistemas y datos de una organización contra ataques cibernéticos.
   - **Conocimiento sobre el panorama de las amenazas**: Es importante que los profesionales de la ciberseguridad estén al tanto de las últimas tendencias y amenazas en el campo de la ciberseguridad, para poder anticipar y mitigar posibles riesgos de seguridad ante nuevas variantes de malware, ataques de phishing, ransomware entre otros.
   - **Respuestas ante incidentes**: Los profesionales de la ciberseguridad deben estar preparados para responder rápidamente a los incidentes de seguridad, investigar las causas raíz y tomar medidas correctivas para minimizar el impacto de los ataques cibernéticos.
-#### CompTIA Seguridad+
+### CompTIA Seguridad+
 - **CompTIA Security+**: Es una certificacion de seguridad de la informacion que valida las habilidades y conocimientos de los profesionales de la ciberseguridad en areas como la identificacion de amenazas, la implementacion de controles de seguridad y la respuesta a incidentes de seguridad.
-#### Términos y definiciones del Curso 1, Módulo 1
+### Términos y definiciones del Curso 1, Módulo 1
 - **Ciberseguridad (o seguridad)**: La práctica de garantizar la confidencialidad, integridad y disponibilidad de la información protegiendo las redes, los dispositivos, las personas y los datos del acceso no autorizado o de la explotación delictiva
 - **Seguridad de la nube**: El proceso de garantizar que los recursos almacenados en la Nube están configurados correctamente y que el acceso a dichos recursos está limitado a los usuarios autorizados
 - **amenaza interna**: Un empleado actual o anterior, un proveedor externo o un socio de confianza que supone un riesgo para la Seguridad.
@@ -89,14 +85,14 @@
 - **Controles de seguridad**: Medidas y procedimientos que se implementan para proteger los activos de una organización y mitigar los riesgos de seguridad.
 - **Cumplimiento normativo**: El cumplimiento de las leyes y regulaciones relacionadas con la seguridad de la información.
 
-### Módulo 2: La evolución de la ciberseguridad
+# Módulo 2: La evolución de la ciberseguridad
 ![img_2.png](img_2.png)
 
-### Módulo 3: Proteger contra amenazas, riesgos y vulnerabilidades
+# Módulo 3: Proteger contra amenazas, riesgos y vulnerabilidades
 ![img_3.png](img_3.png)
 
 
-### Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
+# Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
 ![img_4.png](img_4.png)
 
 
@@ -118,5 +114,5 @@
 
 - [Plan de estudio](https://www.coursera.org/learn/foundations-of-cybersecurity/ungradedWidget/XkeaO/your-google-cybersecurity-certificate-roadmap#)
 
-- **(CID)** modelo de seguridad fundacional denominado Tríada de confidencialidad, integridad y disponibilidad 
+- **(CID)** modelo de seguridad fundacional denominado Tríada de confidencialidad, integridad y disponibilidad
 - **(SIEM)** Herramientas de administración de eventos e información de seguridad
