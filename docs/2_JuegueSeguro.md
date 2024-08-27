@@ -35,6 +35,7 @@ Este Dominio implica establer metas y objetivos de seguridad, la mitigacion de r
 ### 2. Seguridad de los Activos:
 
 Centrado en la proteccion de los activos digitales y fisicos, tambien incluye el almacenamiento, mantenimiento, retencion y destruccion de los activos. Permitiendo que los PII, SPII sean manejados de manera segura. saber cuales son los datos que se tienen y donde se encuentran es una postura de seguridad solida para una organizacion. Se centra en 3 objetivos principales:
+
 * **Identificar**: Reconocer y clasificar todos los activos digitales y físicos de la organización, incluyendo datos, sistemas, hardware y software.
 * **Proteger**: Implementar medidas de seguridad para proteger los activos contra accesos no autorizados, uso indebido, divulgación, modificación o destrucción
 * **Gestionar**: Establecer políticas y procedimientos para el manejo adecuado de los activos a lo largo de su ciclo de vida, incluyendo almacenamiento, acceso, uso, retención y eliminación.
@@ -50,6 +51,7 @@ Centrado en la proteccion de las redes fisicas que permite mantener los datos a 
 ### 5. Gestion de Identidad y Acceso (IAM):
 
 Centrado en el acceso y la autorizacion de los usuarios, para gestionar y controlar los activos de la organizacion. Es escencial mantener los datos seguros como sea posible, asegurando que los usuarios solo tengan acceso a los datos que necesitan para realizar su trabajo. Tiene 4 componnetes principales:
+
 * **Identificación**: Es el proceso de identificar a los usuarios y verificar su identidad, a travez de un nombre de usuario.
 * **Autenticación**: Proceso de verificacion para provar la identidad de un usuario (contraseña, pin).
 * **Autorización**: Proceso de determinar que recursos y datos tiene acceso un usuario.
