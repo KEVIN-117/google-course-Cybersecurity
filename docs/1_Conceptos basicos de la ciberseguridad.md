@@ -74,8 +74,8 @@
 - **amenaza interna**: Un empleado actual o anterior, un proveedor externo o un socio de confianza que supone un riesgo para la Seguridad.
 - **Amenaza externa**: Un atacante malicioso que no tiene relación con la organización y que intenta explotar las vulnerabilidades de la organización para obtener beneficios personales.
 - **Seguridad de la red**: La práctica de mantener la infraestructura de red de una organización a salvo de accesos no autorizados.
-- **Informacion de identificacion personal (PII)**: Cualquier Información utilizada para inferir la identidad de un individuo
-- **Informacion de identificacion personal sensible (SPII)**: Un tipo específico de PII que entra dentro de las directrices de manejo más estrictas. Información de identificación personal que puede ser utilizada para cometer fraude o robo de identidad
+- **Informacion de identificacion personal (PII)**: Cualquier Información utilizada para inferir la identidad de un individuo como ser: Nombre, Direccion, Numero de telefono, Numero de seguro social, Fecha de nacimiento.
+- **Informacion de identificacion personal sensible (SPII)**: Un tipo específico de PII que entra dentro de las directrices de manejo más estrictas. Información de identificación personal que puede ser utilizada para cometer fraude o robo de identidad como ser: Informacion financiera, Informacion medica, Informacion de tarjetas de credito.
 - **Postura de seguridad**: La capacidad de una organización para gestionar su defensa de activos y datos críticos y reaccionar ante los cambios
 - **Habilidades Tecnicas**: Habilidades que requieren el conocimiento de herramientas, Procedimientos y políticas específicas para realizar tareas específicas.
 - **Habilidades Transferibles**: Habilidades que se pueden aplicar a diferentes carreras y campos.
@@ -154,14 +154,14 @@ Esta area esta en contante evolucion, ahora poder ver el panorama completo de lo
 
 Tener un conocimiento solido de los conceptos basicos de la ciberseguridad es fundamental para cualquier profesional de la ciberseguridad. El modelo de seguridad CISSP es un marco de trabajo que se utiliza para organizar y clasificar los conceptos de la ciberseguridad en ocho dominios principales. Estos dominios son:
 
-1. **Seguridad y gestion de riesgos**: Se centra en definir los riegos y objetivos de seguridad, la mitigacion de riesgos, el cumplimiento y la continuidad del negocio. 
-2. **Seguridad de los recursos**: Se centra en la proteccion de activos digitales y fisicos. Tambien tiene una relacion directa con el almacenamiento, mantenimiento, retencion y destruccion de los datos. 
-3. **Arquitectura e ingenieria de seguridad**: Se centra en optimizar la seguridad de los datos garantizando la existencia de herramientas, sistemas y procesos de seguridad efectivos. Como la configuracion de un firewall, la implementacion de politicas de seguridad y la gestion de identidades y accesos.
-4. **Seguridad de la red y las comunicaciones**: Se centra en administrar y proteger las redes fisicas y las comunicaciones inalambricas.
-5. **Administracion de identidades y accesos**: Se centra en mantener los datos seguros, garantizando que los usuarios sigan las políticas establecidas para controlar y administrar los activos físicos, como los espacios de oficina, y los activos lógicos, como las redes y las aplicaciones.
-6. **Evaluacion y pruebas de seguridad**: Este dominio se centra en la realización de pruebas de control de seguridad, la recopilación y el análisis de datos y la realización de auditorías de seguridad para supervisar los riesgos, las amenazas y las vulnerabilidades.
-7. **Operaciones de seguridad**: Este dominio se centra en la realización de investigaciones y la implementación de medidas preventivas. Imagine que usted, como analista de Seguridad, recibe una alerta de que un dispositivo desconocido se ha conectado a su red interna. Deberá seguir las políticas y los procedimientos de la organización para detener rápidamente la posible amenaza.
-8. **seguridad de desarrollo de software**: Este dominio se centra en el uso de prácticas de programación seguras, que son un conjunto de directrices recomendadas que se utilizan para crear aplicaciones y servicios seguros. Un analista de seguridad puede trabajar con los equipos de desarrollo de software para garantizar que las prácticas de seguridad se incorporen al ciclo de vida del desarrollo de software.
+1. **Seguridad y gestion de riesgos**: Se trata de identificar, evaluar y gestionar los riesgos de seguridad para proteger los activos de una organización. Es como ser el arquitecto de la seguridad, diseñando estrategias para prevenir y mitigar posibles amenazas. 
+2. **Seguridad de los recursos**: Aquí nos enfocamos en proteger la información y los datos, ya sea en formato físico o digital. Imagina que eres el guardián de la información, asegurando su confidencialidad, integridad y disponibilidad. 
+3. **Arquitectura e ingenieria de seguridad**: Este dominio se centra en el diseño, la implementación y la gestión de controles de seguridad en sistemas y aplicaciones. Es como ser el ingeniero de seguridad, construyendo y fortificando las defensas de la organización.
+4. **Seguridad de la red y las comunicaciones**: Se centra en la protección de las redes y las comunicaciones, asegurando que la información viaje segura y sin interrupciones. Piensa en ti como el protector de las autopistas de la información, garantizando un flujo seguro y confiable.
+5. **Administracion de identidades y accesos**: Se centra en controlar quién tiene acceso a qué información y recursos. Es como ser el portero de la organización, verificando la identidad y autorizando el acceso solo a las personas adecuadas.
+6. **Evaluacion y pruebas de seguridad**: Aquí se trata de evaluar la eficacia de los controles de seguridad y buscar vulnerabilidades. Imagina que eres el detective de la seguridad, investigando y poniendo a prueba las defensas para identificar puntos débiles.
+7. **Operaciones de seguridad**: Este dominio se encarga de la gestión y el mantenimiento diario de los controles de seguridad. Es como ser el oficial de operaciones, asegurándose de que todo funcione correctamente y respondiendo a cualquier incidente.
+8. **seguridad de desarrollo de software**:  Aquí nos enfocamos en integrar la seguridad en el ciclo de vida del desarrollo de software. Piensa en ti como el asesor de seguridad para los desarrolladores, guiándolos para crear software seguro desde el principio.
 
 ## Tipos de ataque:
 
@@ -188,34 +188,313 @@ Tener un conocimiento solido de los conceptos basicos de la ciberseguridad es fu
     * **Clonacion y robo de tarjetas**: Es un tipo de ataque físico en el que los atacantes clonan o roban tarjetas de crédito o débito para obtener información financiera confidencial.
 
       Este tipo de ataque se encuentra dentro del dominio de **Seguridad de los recursos**.
-* **Inteligencia artificial antagónica**:
-* **Ataque a la cadena de suministro**:
+* **Inteligencia artificial antagónica**: Es una tecnica que manipula la inteligencia artificial y la tecnologia de aprendizaje automatico para engañar a los sistemas de seguridad y realizar ataques maliciosos. Entre su clasificacion encontramos:
+    * **Ataque adversario**: Es un tipo de ataque de inteligencia artificial antagónica en el que los atacantes manipulan los datos de entrada de un sistema de aprendizaje automático para engañarlo y realizar acciones maliciosas.
+    * **Ataque de envenenamiento de datos**: Es un tipo de ataque de inteligencia artificial antagónica en el que los atacantes manipulan los datos de entrenamiento de un sistema de aprendizaje automático para engañarlo y realizar acciones maliciosas.
+
+      Este tipo de ataque se encuentra dentro del dominio de **Seguridad de la red y las comunicaciones**. 
+* **Ataque a la cadena de suministro**: Ataque criptográfico que afecta a formas seguras de Comunicación entre un remitente y un destinatario. Algunas formas de ataques criptográficos son:
+    
 * **Ataque criptográfico**:
+    * **Cumpleaños**: Es un tipo de ataque criptográfico que explota la paradoja del cumpleaños para encontrar colisiones en funciones hash.
+    * **Colision**: Es un tipo de ataque criptográfico que busca encontrar dos entradas diferentes que produzcan el mismo valor hash.
+    * **Degradacion**: Es un tipo de ataque criptográfico que busca reducir la seguridad de un sistema criptográfico al debilitar sus algoritmos o claves.
+        
+        Esto ataques pertenecen al dominio de la **Comunicacion y la seguridad de redes**.
+
+## Tipos de agentes de amenaza:
+
+* **Amenaza persistente avanzada (APT)**: Es un tipo de ataque cibernético sofisticado y dirigido que utiliza tácticas avanzadas para infiltrarse en una red y permanecer oculto durante un largo período de tiempo. 
+    * Sus intenciones y motivaciones son:
+        * Dañar infraestructura critica (red electrica, sistemas de agua, etc).
+        * Robar información confidencial (datos personales, secretos comerciales, etc).
+    * Sus metodos de ataque son:
+        * Ingenieria social.
+        * Ataques de phishing.
+        * Explotacion de vulnerabilidades.
+        * Ataques de ransomware.
+* **Amenazas Internas**: Las amenazas internas abusan de su acceso autorizado para obtener datos que pueden perjudicar a una organizacion
+    * Sus intenciones y motivaciones son:
+        * Sabotage.
+        * Corrupcion.
+        * Espionaje.
+        * Acceso no autorizado o filtracion de datos.
+* **Hacktivistas**: Los hacktivistas son individuos o grupos que utilizan sus habilidades técnicas para promover causas políticas o sociales.
+    * Sus intenciones y motivaciones son:
+        * Manifestaciones.
+        * Propaganda.
+        * Campañas de cambio social.
+        * Fama o notoriedad.
+* **Ciberdelincuentes**: Los ciberdelincuentes son individuos o grupos que utilizan sus habilidades técnicas para cometer delitos cibernéticos con fines lucrativos.
+    * Sus intenciones y motivaciones son:
+        * Robo de identidad.
+        * Fraude financiero.
+        * Extorsion.
+        * Venta de datos robados.
+* **Hackers**: Es un individuo que usa sus conocimientos para acceder a sistemas infromaticos, redes o datos. Pueden ser principiantes o profecionales avanzados.
+* ![img_7.png](img_7.png)
+    * Sus intenciones y motivaciones son:
+        * Pruebas de seguridad.
+        * Investigacion.
+        * Desarrollo de software.
+        * Mejora de la seguridad.
+    * Tipos de hackers:
+        * **Hackers éticos**: Tambiem conocidos como *hackers autorizados* o *hackers de sombrero blanco*. Son hackers que utilizan sus habilidades técnicas para mejorar la seguridad de los sistemas informáticos y proteger a las organizaciones de los ciberataques, estos siguen las reglas, a las leyes y siguen un codigo etico.
+        * **Hackers semi-éticos**: Tambien conocidos como *semi autorizados* o *hackers de sombrero gris*. Son hackers que utilizan sus habilidades técnicas para buscar vulnerabilidades pero no se aprovechan de ellas, estos pueden ser contratados por una organizacion para probar la seguridad de sus sistemas.
+        * **Hackers maliciosos**: Tambien conocidos como *hackers no autorizados* o *hackers de sombrero negro*. son agentes de amenaza maliciosa que no siguen la reglas, tienen como objetivo recopilar, robar informacion para luego venderlo para obtener beneficios economicos.
+## Términos y definiciones del Curso 1, Módulo 2
+
+* **Inteligencia artificial (IA) antagónica**: Una técnica que manipula la inteligencia artificial (IA) y la tecnología de aprendizaje automático (ML) para llevar a cabo ataques de forma más eficiente.
+
+* **Compromiso de correo electrónico empresarial (BEC)**: Un tipo de ataque de phishing en el que un agente de amenaza se hace pasar por una fuente conocida para obtener una ventaja financiera
+
+* **CISSP**: Certified Información Systems Security Professional (profesional certificado en seguridad de los sistemas de información) es una certificación en seguridad de la información reconocida en todo el mundo y muy solicitada, otorgada por el Consorcio Internacional de Certificación en Seguridad de los Sistemas de Información 
+
+* **Virus informático**: Código malicioso escrito para interferir en las operaciones de la computadora y causar daños a los datos y al software
+
+* **Ataque criptográfico**: Ataque que afecta a las formas seguras de Comunicación entre un remitente y un destinatario
+
+* **Hacker**: Cualquier persona que utilice ordenadores para acceder a sistemas informáticos, redes o datos
+
+* **Software malicioso**: Software diseñado para dañar dispositivos o redes
+
+* **Ataque de descifrado de contraseña**: Intento de acceder a dispositivos, sistemas, redes o datos protegidos por contraseña
+
+* **Phishing**: El uso de las comunicaciones digitales para engañar a la gente para que revele Datos sensibles o despliegue software malicioso
+
+* **Ataque físico**: Incidente de Seguridad que afecta no sólo a los entornos digitales sino también a los físicos DONDE SE IMPLEMENTA
+
+* **Ingeniería social física**: Ataque en el que un agente de amenaza se hace pasar por un empleado, cliente o proveedor para obtener acceso no autorizado a un lugar físico
+
+* **Ingeniería social**: Una técnica de manipulación que explota el error humano para obtener información privada, acceso u objetos de valor
+
+* **Phishing en redes sociales**: Tipo de ataque en el que un agente de amenaza recopila información detallada sobre su objetivo en las redes sociales antes de iniciar el ataque
+
+* **Spear phishing **: ataque malicioso por correo electrónico dirigido a un usuario o grupo de usuarios específico, que parece proceder de una fuente de confianza
+
+* **Ataque a la cadena de suministro**: Ataque dirigido a sistemas, aplicaciones, hardware y/o software para localizar una vulnerabilidad en la que se pueda implementar software malicioso
+
+* **USB baiting**: Ataque en el que un agente de amenaza deja estratégicamente una memoria USB con software malicioso para que un empleado la encuentre y la instale con el fin de infectar una red sin saberlo
+
+* **Virus**: refiérase a "Virus informático"
+
+* **Vishing**: Explotación de las comunicaciones electrónicas de voz para obtener información confidencial o suplantar la identidad de una fuente conocida
+
+* **Ataque de "agujero de agua"**: Un tipo de ataque en el que un agente de amenaza compromete un sitio web visitado con frecuencia por un grupo específico de usuarios
+
 # Módulo 3: Proteger contra amenazas, riesgos y vulnerabilidades
 ![img_3.png](img_3.png)
 
+## Introducción a los marcos y controles de Seguridad
+
+Los frameworks (Marcos) son directrices utilizados para crear planes que ayudan a mitigar los riesgos , las amenasas a los datos y la privasidad. Estas proporcionan un enfoque estructurado para la implementacion de un ciclo de vida de seguridad la cual es un conjunto de politicas y normas que definen la forma en que una organizacion gestiona los riesgos, los propositos de seguridad de estos frameworks es el de proteger la informacion de identificacion personal (PII), informacion financiera, identificar las debilidades, administrar los riesgos organizacionales. Estos frameworks se componen de 4 componentes principales y son:
+
+1. **Identifcar y documentar los objetivos de seguridad.**: 
+2. **Establecer directrices para lograr los objetivos de seguridad**
+3. **Implementacion de los procesos de seguridad solidos**
+4. **Monitoreo y comunicacion de los resultados de seguridad**
+
+Por otro lado estan los controles de seguridad que son medidas de seguridad diseñados para reducir los riesgos de seguridad especificos
+
+## Diseño seguro
+
+* **La triada CID**:  Es un modelo fundamental de la CIA, CIS es sinonimo de *confidencialidad*, *integridad*, *disponibilidad*. Estos tres componentes son fundamentales para crear sistemas y políticas de seguridad sólidos.
+  * ![img_8.png](img_8.png)
+      * **Confidencialidad**: Es la proteccion de la informacion sensible de accesos no autorizados.
+      * **Integridad**: Indica que los datos son correctos, completos y confiables.
+      * **Disponibilidad**: La informacion debe estar accesible siempre para todos aquellos que estan autorizados
+* **Marco de seguridad NIST CSF**: Un conjunto de estandares, pautas, y mejores practicas voluntarias, utilizadas por las organizaciones para gestionar los riesgos a corto y a largo plazo. 
+
+* **Relación entre controles, marcos de trabajo y cumplimiento**:
+
+La triada CID esta en directa relacion con los controles ya que estas permiten la implementacion de conroles adecuados que mitiguen las amenazas.
+
+  * La confidencialidad, la integridad, disponibilidad (CIA) son principios fundamentales para establecer controles que reduzcan riesgos de seguridad.
+  * Los controles de seguridad junto con los marcos de trabajo, garantizan que se cumplan los objetivos de seguridad y los requisitos de cumplimiento normativo
+* Ejemplos de marcos de trabajo, controles y estandares de cumplimiento:
+  * **NIST CF y NIST RMF** Desarrolla marcos de trabajo voluntarios como NIST CSF y NIST RMF para ayudar a las organizaciones a gestionar el riesgo. donde NIST es **Instituto Nacional de Estándares y Tecnología**, CSF es **Marco de Seguridad Cibernetica** y RMF es **Marco de Gestión de Riesgos**.
+  * **La ley de transferencia y responsabilidades de los seguros medicos (HIPAA)** es una ley de **EEUU** que protege la informacion medica de los pacientes y requiere que kas organizaciones los notifiquen en caso de una violacion de datos.
+  * **La Comision Federal Reguladora de la Energia - Corporacion Norteamericana de confiabilidad Electrica (FERC-NERC)**: Regulaciones para las organizaciones que trabajan con la electricidad en EEUU. requiriendo preparacion y mitigacion de incidentes de seguridad.
+  * **El Programa Federal de Gestion de Riesgos y Autorizaciones (FedRAMP)**: Programa del gibierno de EE.UU que estandariza la seguridad de los servicios en la nube.
+  * **Centro de la Seguridad en Internet (CIS)**: Proporciona controles para proteger sistemas y redes contra ataques.
+  * **Reglamento General de Proteccion de Datos (GDPR)**: Regulacion de Union Europea *UE* que portege los datos de los residentes de la UE y requiere que las organizaciones notifiquen a los usuarios en caso de una violacion de datos. Tambien tiene el *derecho de olvido* que establece que los individuos pueden solicitar que sus datos personales sean eliminados por una organización bajo ciertas circunstancias.
+  * **Estandares de Seguridad de los Datos para la Industria de Tarjetas de Pago (PCI DSS)**: Estandar de seguridad de la informacion para organizaciones que procesan pagos con tarjetas de credito.
+  * **Organizacion Intenacional de Normalizacion (ISO)**: Establece estandares internacionales para la tecnologia, manufactura y gestion.
+  * **Controles de Sistemas y Organizaciones (SOC tipo 1 y SOC tipo 2)**: Infomes que evaluan el cumplimiento financiero y los niveles de riesgo de una organizacion. La diferencia entre SOC tipo 1 y SOC tipo 2 es que el SOC tipo 1 evalua los controles de una organizacion en un momento especifico, mientras que el SOC tipo 2 evalua los controles de una organizacion durante un periodo de tiempo especifico.
+
+## Etica en la ciberseguridad
+
+* **Principios Eticos y Metodologias**:
+  * **Confidencialidad**: Solo los usuarios autorizados pueden acceder a la informacion, en us relcion con la etica significa que debe haber un alto nivel de respeto por la privacidad de los datos.
+  * **Proteccion de la privacidad**: Esto indica salvaguardar la informacion personal (PII) y tambien los sencibles de los usuarios (SPII), para savaguardar la privacidad de los datos losprofecionales tienen la obligacion etica de proteger la informacion de los usuarios, identificar las vulnerabilidades, gestionar los riesgos organizativos, y alinear la seguridad con los objetivos de la empresariales.
+  * **Las Leyes**: Son normas conocidas por una comunidad y aplicadas por una entidad gubernamental, y como profecional de la ceguridad tiene la obligacion estica de proteger a la organizacio, su infrestructura interna y a los miembros de la comunidad.
+    * Debe permanecer imparcial y realizar su trabajo de forma honesta, responsable y con el máximo respeto a la ley.
+    * Sea transparente y justo, y confíe en las pruebas.
+    * Asegúrese de que se implica de forma coherente en el trabajo que realiza, para poder abordar de forma adecuada y ética los problemas que surjan.
+    * Manténgase informado y esfuércese por mejorar sus conocimientos, de modo que pueda contribuir a mejorar el panorama cibernético. 
+## Términos y definiciones del Curso 1, Módulo 3
+
+* **Recurso**: Elemento que se percibe como poseedor de valor para una organización
+
+* **Disponibilidad**: La idea de que los datos son accesibles para aquellos que están autorizados a acceder a ellos
+
+* **Cumplimiento normativo**: El proceso de adhesión a los Estándares internos y a las Regulaciones externas
+
+* **Confidencialidad**: La idea de que sólo los usuarios autorizados pueden acceder a recursos o Datos específicos
+
+* **Tríada de confidencialidad, integridad y disponibilidad (CID)**: Modelo que ayuda a informar sobre cómo las organizaciones tienen en cuenta el riesgo a la hora de establecer sistemas y políticas de Seguridad
+
+* **Hacktivista**: Persona que utiliza la piratería informática para lograr un objetivo político
+
+* **Ley de Transferencia y Responsabilidad de los Seguros Médicos (HIPAA)**: Una ley federal estadounidense establecida para proteger la información sanitaria de los pacientes
+
+Integridad: La idea de que los Datos son correctos, auténticos y fiables
+
+* **Marco de Ciberseguridad (CSF) del Instituto Nacional de Estándares y Tecnología (NIST)**: Un framework voluntario que consiste en estándares, directrices y mejores prácticas para gestionar el riesgo de la ciberseguridad
+
+* **Protección de la privacidad**: El acto de salvaguardar la información personal del uso no autorizado
+
+* **Información médica protegida (PHI)** : Información relacionada con la salud o el estado físico o mental pasado, presente o futuro de una persona
+
+* **Arquitectura de seguridad**: Tipo de diseño de seguridad compuesto por múltiples componentes, como herramientas y procesos, que se utilizan para proteger a una organización de riesgos y amenazas externas
+
+* **Controles de seguridad**: Salvaguardas diseñadas para reducir riesgos de Seguridad específicos
+
+* **Ética de la seguridad**: Pautas para tomar decisiones adecuadas como profesional de la Seguridad
+
+* **Marcos de seguridad**: Directrices utilizadas para elaborar planes que ayuden a mitigar el riesgo y las amenazas a los Datos y a la privacidad
+
+* **Gobernanza de seguridad**: Prácticas que ayudan a apoyar, definir y dirigir los esfuerzos de seguridad de una organización
+
+* **Información de identificación personal sensible (SPII)**: Un tipo específico de PII que entra dentro de las directrices de manejo más estrictas
 
 # Módulo 4: Herramientas de ciberseguridad y lenguajes de programación
 ![img_4.png](img_4.png)
 
+* Lo que aprenderemos en ester capitulo:
+    * Herramientas SIEM
+    * Manuales de estraegias de seguridad
+    * Analizadores de protocolos de red
+    * Sistema Operativo Linux
+    * Lenguajes de programacion
+## Herramientas Comunes de Ciberseguridad
+ antes de niciar con el estudio de las herramientas es muy importante conocer los *logs* (registros), la cual esta representa la fuente de datos para la cual estan hechas las herramientas a analizar. Los logs son registros de eventos que se generan en los sistemas y aplicaciones, estos registros contienen informacion sobre las actividades de los usuarios, los eventos del sistema, las alertas de seguridad y los errores del sistema. Los logs son una fuente valiosa de informacion para los profesionales de la ciberseguridad, ya que les permiten monitorear y analizar la actividad de la red, identificar posibles amenazas y responder a los incidentes de seguridad.
+
+* **Herramientas de administracion de informacion y eventos de seguridad (SIEM)**: Es una aplicacion que recopila y analiza datos de registros en tiempo real para monitorear las actividades criticas de dicha organizacion. Ejemplo: Imagina que la herramienta SIEM detecta múltiples intentos fallidos de inicio de sesión con un nombre de usuario en particular en un período corto de tiempo. Esto podría indicar un ataque de fuerza bruta, donde alguien está intentando adivinar la contraseña. El acronimo **S-I-E-M** pude pronunciarse como *sim* o *parece*. Estos son algunas de las herramientas SIEM de uso comun: Splunk, Chronicle.
+  * **Splunk**: Es una plataforma de analisis de datos que permite a las organizaciones buscar, monitorear y analizar datos de registros en tiempo real. Splunk es una herramienta SIEM muy popular que se utiliza en una amplia variedad de industrias para monitorear la seguridad de la red, identificar amenazas y responder a los incidentes de seguridad.
+  * **Google Chronicle**: Es una plataforma de seguridad nativa de la nube que permite a las organizaciones analizar grandes volumenes de datos de registros para identificar amenazas y responder a los incidentes de seguridad. Google Chronicle utiliza la inteligencia artificial y el aprendizaje automatico para detectar patrones y anomalias en los datos de registros y proporcionar alertas en tiempo real sobre posibles amenazas.
+* **Manuales de estrategias de seguridad (playbooks)**: Es un manual que proporciona detalles sobre cualquier accion operativa (como la forma de responder a un incidente de seguridad), estos manuales proporcionan una guia a los analistas de seguridad antes, durante y despues de un incidente de seguridad. Pueden referirse a las revisiones de seguridad o cumplimiento, la administración del acceso y muchas otras tareas organizativas que requieren un proceso documentado de principio a fin. En caso de un incidente de seguridad, los manuales de estrategias de seguridad pueden ayudar a los analistas a responder de manera rapida y eficiente siguiendo estos pasos: Verificar la actividad sospechosa, analizar la direccion IP, informar a los equipos correspondientes.
+* **Analizadores de protocolos de red**: Conocido tambien como rastreador de paquetes, diseñado para capturar y analizar el trafico de datos dentro de una red para identificar posibles amenazas y vulnerabilidades. Algunas herramientas comunes de analisis de protocolos de red incluyen Wireshark, tcpdump, y Snort.
+  * **Wireshark**: Es una herramienta de analisis de protocolos de red de codigo abierto que permite a los profesionales de la ciberseguridad capturar y analizar el trafico de red en tiempo real.
+  * **Tcpdump**: Es una herramienta de linea de comandos que permite a los profesionales de la ciberseguridad capturar y analizar el trafico de red en tiempo real.
+  * **Snort**: Es una herramienta de deteccion de intrusiones de codigo abierto que permite a los profesionales de la ciberseguridad monitorear y analizar el trafico de red en tiempo real.
+  
+  Estas son herramientas muy populares que se utiliza en una amplia variedad de industrias para monitorear la seguridad de la red, identificar amenazas y responder a los incidentes de seguridad.
+  
+  Algunos Ejemplos de patrones o actividades sospechosas en el tráfico de red que podrían indicar la presencia de malware:
+  * **Exfiltración de datos**: Transmisión de datos confidenciales fuera de la red de una organización.
+  * **Comunicación con servidores de comando y control (C2)**: Comunicación con servidores remotos utilizados por los atacantes para controlar malware.
+  * **Escaneo de puertos**: Búsqueda de vulnerabilidades en los sistemas de una organización.
+  * **Tráfico de red no autorizado**: Comunicación con direcciones IP o dominios no autorizados.
+  * **Tráfico de red cifrado**: Comunicación en la red que está encriptada y no se puede inspeccionar fácilmente.
+  * **Comunicación con direcciones IP maliciosas**: Comunicación con direcciones IP conocidas por ser maliciosas o sospechosas.
+
+## Herramientas para proteger las operaciones de Negocio a negocio (Business-to-Business)
+
+* Herramientas esenciales para un analista de seguridad de nivel inicial:
+  * **Herramientas SIEM:**: Estas herramientas recopilan y analizan datos de registro para facilitar la monitorización de actividades dentro de una organización. Ayudan a detectar amenazas, riesgos y vulnerabilidades de forma más eficiente que la revisión manual de registros.
+  * **Analizadores de protocolos de red (sniffers de paquetes)**: Estas herramientas capturan y analizan el tráfico de datos en una red, lo que permite a los analistas identificar patrones y anomalías.
+  * **Playbooks: Guías para la acción en ciberseguridad**:
+    * **Importancia de los playbooks**: Los playbooks proporcionan instrucciones paso a paso sobre cómo manejar tareas de seguridad, como responder a incidentes.
+    * **Tipos de playbooks**: Los playbooks de cadena de custodia y de protección y preservación de pruebas son dos tipos comunes de playbooks utilizados en ciberseguridad.
+      * **Playbook de cadena de custodia**: Este playbook documenta la posesión y el control de las pruebas durante una investigación forense, garantizando que las pruebas se manejen correctamente y sean admisibles en un tribunal.
+      * **Playbook de protección y preservación de pruebas**: Este playbook describe cómo trabajar con pruebas digitales frágiles y volátiles, asegurando que se conserven y analicen adecuadamente. 
+
+## Conocimientos y habilidades basicos en ciberseguridad
+
+* **Herramientas esenciales**:
+  * Además de SIEM, playbooks y sniffers de paquetes, los analistas utilizan lenguajes de programación como Python y SQL, y sistemas operativos como Linux.
+  * La programación automatiza tareas repetitivas, mejora la precisión, reduce los errores y ahorra tiempo en comparación con el trabajo manual. 
+
+* **Introduccion a Linux, SQL y Python**:
+  * Linux, un sistema operativo de código abierto, utiliza una interfaz de línea de comandos, lo que permite a los analistas examinar registros y comprender las actividades del sistema.
+  * SQL interactúa con las bases de datos, lo que permite a los analistas recuperar información específica de grandes conjuntos de datos.
+  * Python ayuda a automatizar tareas que requieren precisión y consumen mucho tiempo para los profesionales de la seguridad.
+### Utilice herramientas para proteger las operaciones de Negocio a negocio (Business-to-Business)
+
+* **Herramientas y sus propositos**:
+  * **Habilidades y herramientas esenciales**
+    * **Programacion**: Automatiza tareas repetitivas, mejora la precision, reduce errores y ahorra tiempo en comparacion con el trabajo manual. Automatización es el uso de la tecnología para reducir el esfuerzo humano y manual en la realización de tareas comunes y repetitivas. ejemplos de lenguaje de programacion son Python, SQL.
+      * **Python**: Es un lenguaje de programación de alto nivel que se utiliza para automatizar tareas, analizar datos y desarrollar aplicaciones. Python es un lenguaje de programación versátil que se utiliza en una amplia variedad de industrias para automatizar tareas, analizar datos y desarrollar aplicaciones.
+      * **Lenguaje de Consulta Estructurada (SQL)**: SQL se utiliza para crear, interactuar y solicitar información a una base de datos.
+    * **sistemas operativos**: Un sistema operativo es la interfaz entre el hardware y el usuario como ejemplo tenemos a Linux, windows, MacOS.
+      * **Linux**: Es un sistema operativo de código abierto. Código abierto significa que el código está a disposición del público y permite que la gente haga contribuciones para mejorar el software. Linux no es un lenguaje de programación; sin embargo, implica el uso de una línea de comandos dentro del sistema operativo. Un comando es una instrucción que le dice a la computadora que haga algo. Una interfaz de línea de comandos  es una interfaz de usuario basada en texto que utiliza comandos para interactuar con la computadora.
+      * **Windows**: Es un sistema operativo de Microsoft que se utiliza en una amplia variedad de dispositivos, incluidos computadoras de escritorio, portátiles y servidores.
+      * **MacOS**: Es un sistema operativo de Apple que se utiliza en computadoras Mac.
+  * **Herramientas y tecnologías de seguridad**:
+    * **Vulnerabilidad web**:  Es una fallo unico en una applicacion web. Unejente malicioso puede llegar a explotar mediante el uso de codigo o comportamiento malicioso. Para permitir el acceso no autorizado, robar informacion confidencial o comportamiento malicioso. y los recursos como el Proyecto de seguridad de aplicaciones web abiertas [(OWASP)](https://owasp.org/www-project-top-ten/) ayudan a mantenerse actualizado sobre las amenazas comunes.
+    * **Software Antivirus**: Utilizado para prevenir, detectar y eliminar software malicioso, protegiendo los sistemas de accesos no autorizados y robo de datos.
+    * **Sistemas de deteccion de intrusiones (IDS)**: Applicacion que monitorea y analiza el trafico de red en busca de actividades sospechosas o maliciosas. Mediante el analisis de paquetes de red que transportan pequeñas cantidades de informacion, lo que facilita que los IDS identifique posibles amenazas a los datos sensibles.
+    * **Encriptacion**: Hace que los datos sena ilegibles, tiene como objetivo principal garantizar la confidencialidad de los datos. La encriptación es el proceso de convertir datos de un formato legible a un formato codificado criptográficamente. La codificación criptográfica consiste en convertir el texto plano en texto cifrado seguro,  El texto plano es la información no cifrada y el texto cifrado seguro es el resultado de la encriptación.
+    * **Pruebas de Penetracion**: Tambien denominados **pen testing**, a estos se les denomina pruebas de seguridad que simulan un ataque de un agente de amenaza malicioso para identificar y corregir vulnerabilidades en un sistema como ser redes, sitios web, aplicaciones. Es una evaluación de riesgos exhaustiva que puede evaluar e identificar las amenazas externas e internas, así como los puntos débiles. 
 
 
+### Crear una cartera de ciberseguridad
 
+* **¿Qué es un Portfolio y por qué es necesario?**: Es necesario para que un  profesionales de la Ciberseguridad pueda demostrar su formacion, habilidades y conocimiento en materias de Seguridad. Utilizados para solicitar un empleo, Portfolio no es lo mismo que curriculum.
+* **Opciones para Crear un Portfolio**: Hay muchas formas de presentar un portfolio, incluye opciones de auto presentacion y en linea como:
+  * **Carpeta de Documentacion**: Carpeta fisica o digital que contiene copias de certificados, diplomas, cartas de recomendacion, proyectos de seguridad y otros documentos que demuestran las habilidades y experiencia de un profesional de la ciberseguridad.
+  * **Google Drive o Dropbox**: Servicios de almacenamiento en la nube que permiten a los profesionales de la ciberseguridad almacenar y compartir documentos, presentaciones, proyectos y otros materiales de seguridad.
+  * **Sitios de Google**: Sitios web gratuitos que permiten a los profesionales de la ciberseguridad crear y compartir portfolio en línea con facilidad.
+  * **Repositorio git**: Plataforma de desarrollo de software que permite a los profesionales de la ciberseguridad almacenar, compartir y colaborar en proyectos de seguridad.
+  * Detalle de las opciones:
+    * Opcion 1: Carpeta de Documentacion
+      * Descripción: Una carpeta de documentos es una carpeta creada y guardada en el disco duro de su computadora. Usted gestiona la carpeta, las subcarpetas, los documentos y las imágenes que contiene, llegar a organizar sus documentos profecionales puden llegarle a resultar muy util al momento de solicitar un empleo.
+    * Opcion 2: Google Drive o Dropbox
+      * Descripción: Google Drive y Dropbox ofrecen funciones similares que le permiten almacenar su documentación profesional en una plataforma en la nube, cuentan con funciones para compartir archivos, lo que le facilita compartir su portfolio con empleadores potenciales, permitiendole la modificacion y actualizacion de su portfolio en cualquier momento.
+    * Opcion 3: Sitios de Google
+      * Descripción: Google Sites es una plataforma de creación de sitios web gratuita que le permite crear y compartir un portfolio en línea con facilidad. Puede personalizar su sitio web con plantillas, imágenes y contenido para mostrar su experiencia y habilidades en ciberseguridad.
+    * Opcion 4: Repositorio git
+      * Descripción: Un repositorio Git es una carpeta dentro de un proyecto. En este caso, el proyecto es su Portfolio, y puede utilizar su repositorio para almacenar los documentos, laboratorios y capturas de pantalla que complete durante cada curso del programa de certificación. Existen varios servicios de alojamiento de repositorios Git, como GitHub, GitLab y Bitbucket, que le permiten almacenar, compartir y colaborar en proyectos de seguridad.
+* **Proyectos de Portfolio**: ASÍ COMO se mencionó anteriormente, usted tendrá múltiples oportunidades a lo largo del programa de certificación para desarrollar elementos para incluir en su Portfolio. Estas oportunidades incluyen:
+  * Redacción de una declaración profesional
+  * Realización de una Auditoría de Seguridad
+  * Analizar la estructura y la seguridad de las redes
+  * Utilizar los comandos de Linux para gestionar los permisos de archivo
+  * Aplicación de filtros a las consultas SQL
+  * Identificar vulnerabilidades para un pequeño negocio (Business-to-Business)
+  * Documentación de incidentes con un Diario del gestor de incidentes
+  * Importación y análisis sintáctico de un archivo de texto en un escenario relacionado con la Seguridad\
+  * Creación o revisión de un Currículum Vitae
 
+## Términos y definiciones del Curso 1, Módulo 4
+* **Software antivirus**: Programa de software utilizado para prevenir, detectar y eliminar software malicioso y virus
 
+* **Base de datos**: Una colección organizada de Información o Datos
 
+* **Punto de datos**: Una pieza específica de información
 
+* **Sistema de detección de intrusiones (IDS)** : Aplicación que monitorea la actividad del sistema y alerta sobre posibles intrusiones
 
+* **Linux**: Un sistema operativo de código abierto
 
+* **Registro**: Un registro A de los eventos que se producen en los sistemas de una organización
 
+* **Analizador de protocolos de red**: Una herramienta diseñada para capturar y analizar el tráfico de datos dentro de una red
 
+* **Orden de volatilidad**: Una secuencia que describe el orden de los datos que deben conservarse del primero al último
 
+* **Programación**: Un proceso que puede utilizarse para crear un conjunto específico de instrucciones para que una computadora ejecute tareas
 
+* **Protección y preservación de evidencias**: El proceso de trabajar adecuadamente con pruebas digitales frágiles y volátiles
 
+* **Administración de información y eventos de seguridad (SIEM)**: Una aplicación que recopila y analiza los datos de registro para monitorizar las actividades críticas de una organización
+
+* **SQL (Lenguaje de Consulta Estructurado)**: Lenguaje de consulta utilizado para crear, interactuar y solicitar información a una base de datos
 
 ### Apendice
 
 - [Plan de estudio](https://www.coursera.org/learn/foundations-of-cybersecurity/ungradedWidget/XkeaO/your-google-cybersecurity-certificate-roadmap#)
 
 - **(CID)** modelo de seguridad fundacional denominado Tríada de confidencialidad, integridad y disponibilidad
-- **(SIEM)** Herramientas de administración de eventos e información de seguridad
+- **(SIEM)** Herramientas de administración de eventos e información de seguridad**
