@@ -186,6 +186,107 @@ Recuerda, la gestión eficaz de las amenazas, los riesgos y las vulnerabilidades
     * Separacion de funciones
     * Autorizacion y autenticacion
     * Clasificacion de Activos
+  
+## La tríada CID
+- **¿Qué es la tríada CIA?**:
+  * Es un modelo que ayuda a informar de como las organizaciones consideran los riesgos al establecer servicios y politicas de seguridad
+    * **Confidencialidad**: Garantiza que los datos solo esten disponibles para las personas autorizadas. Un ejemplo de cómo las organizaciones logran esto es mediante el principio de privilegio mínimo.
+    * **Integridad**: Garantiza que los datos sean autenticos, correctos y confiables, es decir libre de modificaciones no deseados. La criptografía y el cifrado son métodos clave utilizados para mantener la integridad de los datos.
+    * **Disponibilidad**: Garantiza que los datos esten disponibles para las personas autorizadas cuando lo necesiten.
+* **Importancia de la tríada CID**:
+  * Comprender y aplicar la tríada **CID** ayuda a los profesionales de seguridad a protegerse contra amenazas como la ingeniería social, el malware y el robo de datos.
+  * Tener presente la tríada CID facilita la toma de decisiones informadas sobre la protección de datos y activos.
+
+## Marcos de trabajo de seguridad:
+  * Las organizaciones utilizan marcos de trabajo como el NIST Cybersecurity Framework (CSF) para gestionar los riesgos de ciberseguridad.
+  * Estos marcos de trabajo ofrecen estándares, directrices y mejores prácticas para crear planes de seguridad.
+- El NIST CSF en acción
+  - El CSF incluye cinco funciones principales: identificar, proteger, detectar, responder y recuperar.
+- **Cómo se utiliza cada función para mejorar la seguridad**:
+  - **Identificar**: Administrar el riesgo de ciberseguridad y su efecto en las personas y los activos de una organización.
+  - **Proteger**: Implementar políticas, procedimientos, capacitación y herramientas para mitigar las amenazas de ciberseguridad.
+  - **Detectar**:  Identificar posibles incidentes de seguridad y mejorar las capacidades de monitorización.
+  - **Responder**: Contener, neutralizar y analizar los incidentes de seguridad e implementar mejoras en el proceso de seguridad.
+  - **Recuperar**: Devolver los sistemas afectados a su funcionamiento normal.
+- Beneficios y alcance de los marcos de trabajo del NIST
+  - El NIST CSF ayuda a las organizaciones a responder a incidentes de forma rápida y adecuada, reduciendo riesgos y vulnerabilidades.
+  - Otro marco de trabajo, el NIST SP 800-53, se centra específicamente en la protección de los sistemas de información del gobierno federal de los Estados Unidos.
+
+## Pricipios OWASP y Auditorias de Seguridad:
+
+Owasp en una organizacion que tiene como objetivo mejorara la seguridad del software, tiene como micion crear y mantener recursos que permitan a los desarrolladores, arquitectos de software, y profesionales de la seguridad desarrollar aplicaciones más seguras y comprender mejor las amenazas a las que estas se enfrentan.
+
+* **Principios de OWASP**:
+    * **Minimizar la Superficie de ataque**: Una superficie de ataque hace referencia a todos los lugares que el agente de amenaza podria llegar a explotar. Como los vectores de ataque que son utilizadas como caminos para llegar a los datos (correos electronicos, phishing, contraseñas debiles).
+    * **Privilegio Minimo**: Se refiere a que un usuario debe tener la menor cantidad de acceso posible a los datos y a los recursos de la organizacion para realizar su trabajo de manera eficiente.
+    * **Defensa en Profundidad**: Indica que una organizacion debe tener multiples controles de seguridad que aborden los riesgos y amenazas de seguridad en diferentes capas de la organizacion. Un ejemplo puede llegar a ser el control de autenticacion de multiples factores (MFA), firewalls y sistemas de deteccion de intrusiones.
+    * **Separacion de Funciones**: Este principio se basa en que **a nadie se le debe dar muchos privilegios que pueda hacer un mal uso del sistema**, esto puede llegar a resultar muy utili al momento de prevenir actividades fraudulentas o ilegales. Por ejemplo, la persona de una empresa que firma las nóminas no debería ser también la persona que las prepara.
+    * **Mantener la Seguridad Simple**: Evitar las soluciones de seguridad complicadas e innecesarias porque estas pueden llegar a ser inmanejables y dificiles de mantener.
+    * **Solucionar los Problemas de Seguridad**: Es muy importante solucionar los problemas de seguridad y aun mas cuando se produce un incidente de seguridad. Un ejemplo de problema es una contraseña débil para acceder al wifi de una organización porque podría dar lugar a una brecha. Para solucionar este tipo de Problema de Seguridad, se podrían establecer políticas de contraseñas más estrictas.
+
+## Planificacion de una auditoria de seguridad:
+
+* **¿Qué es una auditoría de seguridad?**:
+    * Es una revicion de los controles, procedimientos, y politicas de seguridad, existen dos tipos de auditorias de seguridad:
+      * **Auditoria Interna**: Realizada por los empleados de la organizacion.
+      * **Auditoria Externa**: Realizada por un tercero.
+    * **Auditorias Internas**: Son realizadas por los empleados de la organizacion. Estas auditorias se realizan con el objetivo de mejorara las posturas de seguridad y evitar multas de las agencias gubernamentales por incumplimiento de las normas de seguridad.
+    * **Planificacion de una auditoria Interna**: Existen algunso elementos muy importantes de la auditorias internas y son: establecer el alcance y los objetivos de la auditoría, realizar una evaluación de riesgos de los activos de la organización, completar una evaluación de controles, evaluar el cumplimiento y comunicar los resultados a la parte interesada.
+      * * **Establecer el alcance y los objetivos**: Se parte por definir el alcance de una auditoria de sistemas es decir a quienes se llegara a auditar (empleados, políticas, activos, procedimientos y tecnologías), y posteriormente definir los objetivos lo que nos permite saber que se espera lograr con la auditoria.
+      * **Realizar una evaluacion de riesgos**: Se centra en la identificacion de amenazas, riesgos y vulnerabilidades, lo cual les permite ver a los analistas ver que medidas de seguridad se deben implementar y cuales se deben mejorar.
+      * **Evaluacion de Controles**: implica la revision en detalle de los activos de una organizacion, evalua los riesgos potenciales para los activos
+
+## Términos y definiciones del Curso 2, Módulo 2
+
+* **Recurso** : Elemento que se percibe como poseedor de valor para una organización
+
+* **Vectores de ataque**: Las vías que utilizan los atacantes para penetrar las defensas de Seguridad
+
+* **Autenticación**: El proceso de verificar quién es alguien
+
+* **Autorización**: El concepto de conceder acceso a recursos específicos en un sistema
+
+* **Disponibilidad**: La idea de que los datos son accesibles para aquellos que están autorizados a acceder a ellos
+
+* **Datos biométricos**: Las características físicas únicas que pueden utilizarse para verificar la identidad de una persona
+
+* **Confidencialidad**: La idea de que sólo los usuarios autorizados pueden acceder a recursos o Datos específicos
+
+* **Tríada de confidencialidad, integridad y disponibilidad (CID)**: Modelo que ayuda a informar sobre cómo las organizaciones tienen en cuenta el riesgo a la hora de establecer sistemas y políticas de Seguridad
+
+* **Detectar**: Una función central del NIST relacionada con la identificación de posibles incidentes de Seguridad y la mejora de las capacidades de Monitoreo para aumentar la Velocidad y la Eficiencia de las Detecciones
+
+* **Encriptación**: El proceso de convertir datos de un formato legible a un formato codificado
+
+* **Identificar**: Una función central del NIST relacionada con la gestión del riesgo de ciberseguridad y su efecto sobre las personas y los recursos de una organización
+
+* **Integridad**: La idea de que los datos son correctos, auténticos y fiables
+
+* **Marco de Ciberseguridad (CSF) del Instituto Nacional de Estándares y Tecnología (NIST)**: Un framework voluntario que consiste en estándares, directrices y mejores prácticas para gestionar el riesgo de la ciberseguridad
+
+* **Publicación Especial (S.P.) 800-53 del Instituto Nacional de Estándares y Tecnología (NIST )**: Un marco unificado para proteger la seguridad de los sistemas de información dentro del gobierno federal de EE.UU.
+
+* **Proyecto Abierto de Seguridad en Aplicaciones Web/Proyecto Abierto de Seguridad en Aplicaciones Web (OWASP)**: Una organización sin ánimo de lucro centrada en mejorar la Seguridad del software
+
+* **Proteger**: Función principal del NIST utilizada para proteger una organización mediante la implementación de políticas, Procedimientos, Entrenamiento y Herramientas que ayudan a mitigar las amenazas a la ciberseguridad
+
+* **Recuperar**: Una función central del NIST relacionada con el retorno de los sistemas afectados a su funcionamiento normal
+
+* **Responder**: Una función central del NIST relacionada con asegurarse de que se utilizan los procedimientos adecuados para contener, neutralizar y analizar los incidentes de seguridad, e implementar mejoras en el proceso de seguridad
+
+* **Riesgo**: Cualquier cosa que pueda afectar a la confidencialidad, integridad y disponibilidad de un recurso
+
+* **Auditoría de seguridad**: Revisión de los Controles de seguridad, políticas y Procedimientos de una organización frente a un conjunto de expectativas
+
+* **Controles de seguridad**: Salvaguardas diseñadas para reducir riesgos de Seguridad específicos
+
+* **Marcos de seguridad**: Directrices utilizadas para elaborar planes que ayuden a mitigar el riesgo y las amenazas a los Datos y a la privacidad
+
+* **Postura de seguridad**: La capacidad de una organización para gestionar su defensa de los activos y datos críticos y reaccionar ante los cambios
+
+* **Amenaza**: Cualquier circunstancia o Evento que pueda impactar negativamente en los recursos
+
+
 # **Modulo 3**: Introduccion a las Herraientas de Ciberseguridad
 ![img_13.png](img_13.png)
 <p align="center" style="font-weight: bold">
